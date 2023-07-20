@@ -1,23 +1,28 @@
-import logo from './logo.svg';
-import './App.css';
+import People from "./Components/People";
+import Card from "./UI/Card";
+import styles from "./App.module.css";
+import InteractiveToon from "./Components/InteractiveToon";
+import TypingAnimation from "./Functions/TypingAnimation";
+import { useState } from "react";
 
 function App() {
+  const [dialog, setDialog] = useState("");
+  const [isSomeoneHovered, setIsSomeoneHovered] = useState(false);
+  const dialogHandler = (bool, text) => {
+    setIsSomeoneHovered(bool);
+    setDialog(text);
+  };
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className={styles.mainpage}>
+      <div className={`${styles.page} ${styles.p1}`}>
+        <People onPersonChange={dialogHandler} />
+        <Card className="text">
+          {isSomeoneHovered && <TypingAnimation text={dialog} />}
+        </Card>
+      </div>
+      <div className={`${styles.page} ${styles.p2}`}>
+        <InteractiveToon className="toonContainer" />
+      </div>
     </div>
   );
 }
