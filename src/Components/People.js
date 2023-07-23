@@ -161,7 +161,7 @@ const People = ({ onPersonChange }) => {
               info={person}
               style = {
                 hoveredItems[index]
-                  ? { ...notHoveredStyle[index], ...zoomAnimation }
+                  ? { ...hoveredStyle[index], ...zoomAnimation }
                   : notHoveredStyle[index]
               }
               onMouseEnter={() => mouseEnterHandler(index)}

@@ -6,7 +6,7 @@
     height: 100vh;
     flex-direction: column;
     overflow-y: scroll;
-    scroll-snap-type: y mandatory;;
+    scroll-snap-type: y mandatory;
 }
 .page{
     min-width: 100%;
@@ -17,7 +17,8 @@
 .p2{
     display: flex;
     justify-content: space-between;
-    align-items: flex-end;
+    align-items: center;
+    
 }
 
 .block{

@@ -17,9 +17,6 @@
     background-color: white;
     height: 60vh;
     width: 80vw;
-    margin: 0 auto;
-    margin-bottom: 20vh;
-
     display: flex;
     overflow-x: scroll;
     flex-direction: row;
