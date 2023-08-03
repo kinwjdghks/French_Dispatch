@@ -3,22 +3,31 @@ import { useEffect, useState } from "react";
 const TypingAnimation = ({ text }) => {
   const [typingLetters, setTypingLetters] = useState("");
   const [idx, setIdx] = useState(0);
-  const [completedText] = useState(text);
+  useEffect(()=>{
+    setTypingLetters("");
+    setIdx(0);
+  },[text]);
 
-    useEffect(()=>{
-      const interval = setInterval(()=>{
-        if (idx >= completedText.length) return;
-        setTypingLetters((prev) => {
-          let result = prev ? prev + completedText[idx] : completedText[0];
-          return result;
-          });
-        setIdx((prev) => prev + 1);
-      },20);
-      return ()=>{clearInterval(interval);}
-  },[idx,completedText]);
-  
+  useEffect(() => {
 
-  return <div>{typingLetters}</div>;
+    if(!text) return;
+    const len = text ? text.length : 0;
+    const interval = setInterval(() => {
+      if (idx >= len) return;
+      setTypingLetters((prev) => {
+        const result = prev ? prev+text[idx] : text[0];
+        return result;
+      });
+      setIdx((prev)=>{return ++prev;});
+      
+    }, 35);
+
+    return () => {
+      clearInterval(interval);
+      
+    };
+  }, [text, idx,typingLetters]);
+  return <>{typingLetters}</>;
 };
 
 export default TypingAnimation;

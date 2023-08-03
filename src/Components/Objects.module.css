@@ -1,0 +1,344 @@
+.objects_container{
+    position: relative;
+    width: 95rem;
+    height: 40rem;
+    margin-top: 3rem;
+}
+
+.imgcontainer{
+    position: absolute;
+    width: 5rem;
+    height: 15rem;
+}
+.img{
+    width: inherit;
+    height: inherit;
+}
+.imgcontainer.Ben{
+    top: 7rem;
+    width: 8.5rem;
+    height: 16.5rem;
+}
+
+.imgcontainer.Bill{
+    top:6.5rem;
+    left: 65.5rem;
+    width: 5rem;
+    height: 18rem;
+    transform: rotate(180deg);
+}
+
+.imgcontainer.Ed{
+    top:26rem;
+    left: 54.5rem;
+    width: 4.5rem;
+    height: 14rem;
+}
+
+.imgcontainer.Fran{
+    top: 22rem;
+    left: 16rem;
+    width: 5.3rem;
+    height: 18rem;
+}
+
+.imgcontainer.Jeff{
+    top: 26rem;
+    left: 47rem;
+    width: 5rem;
+    height: 14rem;
+}
+
+.imgcontainer.Marti{
+    top:0;
+    left: 87rem;
+    width: 7rem;
+    height: 19rem;
+}
+
+.imgcontainer.Owen{
+    top: 0;
+    left: 20rem;
+
+    width: 7.8rem;
+    height: 18.4rem;
+}
+
+.imgcontainer.Rea{
+    top: 13.2rem;
+    left: 30.5rem;
+    width: 5rem;
+    height: 17rem;
+}
+
+.imgcontainer.Rina{
+    top: 26rem;
+    left: 82rem;
+    width: 8rem;
+    height: 14rem;
+}
+
+.imgcontainer.Steven{
+    top: 26rem;
+    left: 70rem;
+    width: 4.2rem;
+    height: 14rem;
+}
+
+.imgcontainer.Tilda{
+    left: 42rem;
+    width: 7rem;
+    height: 20rem;
+}
+
+.imgcontainer.Timo{
+    transform: rotate(170deg);
+    top: 22rem;
+    left: 23.5rem;
+    width: 6rem;
+    height: 18rem;
+}
+
+.imgcontainer.barricade{
+    top: 18rem;
+    left: 74rem;
+    width: 9rem;
+    height: 6rem;
+}
+.imgcontainer.butterscotch{
+    transform: rotate(-20deg);
+    top:26rem;
+    left: 0;
+    width: 4rem;
+    height: 4rem;
+}
+.imgcontainer.champagne{
+    height: 14rem;
+    width: 3.5rem;
+    top: 26rem;
+    left: 91rem;
+}
+.imgcontainer.chef_knife{
+    top: 26rem;
+    left: 77rem;
+    height: 14rem;
+    width: 2.2rem;
+}
+.imgcontainer.chess_knight{
+    width: 3.5rem;
+    height: 6rem;
+    top: 33rem;
+    left: 62.5rem;
+}
+.imgcontainer.cigarette{
+    left: 62rem;
+    top: 4rem;
+    width: 1.3rem;
+    height: 7.4rem;
+}
+.imgcontainer.colt{
+    top: 20.5rem;
+    left: 85rem;
+    height: 3.5rem;
+    width: 8rem;
+}
+.imgcontainer.dollar{
+    width: 9.5rem;
+    height: 4rem;
+    top: 21rem;
+    left: 52.5rem;
+}
+.imgcontainer.espresso {
+    width: 9rem;
+    height: 5.5rem;
+    top: 5.5rem;
+    left: 30rem;
+}
+.imgcontainer.fedora{
+    width: 8rem;
+    height: 4.5rem;
+    top: 35.5rem;
+    left: 39rem;
+}
+.imgcontainer.fork{
+    width: 12rem;
+    height: 1.5rem;
+    left: 52rem;
+} 
+
+.imgcontainer.fried_egg{
+    top: 0rem;
+    left: 37rem;
+    width: 4.5rem;
+    height: 4.5rem;
+}
+
+.imgcontainer.inkwell{
+    width: 4rem;
+    height: 4.5rem;
+    top: 26rem;
+    left: 9rem;
+}
+
+.imgcontainer.lazy_susan{
+    width: 8rem;
+    height: 5rem;
+    top: 0.5rem;
+    left: 8rem;
+}
+.imgcontainer.lightbulb{
+    width: 5rem;
+    height: 9rem;
+    top: 21rem;
+    left: 38.5rem;
+}
+
+.imgcontainer.lighter{
+    width: 4rem;
+    height: 4.5rem;
+    left: 29.5rem;
+}
+
+.imgcontainer.mask{
+    width: 7rem;
+    height: 7rem;
+    top: 33rem;
+    left: 5rem;
+}
+.imgcontainer.paintbrush{
+    width: 1rem;
+    height: 15.5rem;
+    top:24.5rem;
+    left: 3rem;
+    transform: rotate(20deg);
+
+}
+.imgcontainer.painting_knife{
+    width: 8rem;
+    height: 3.5rem;
+    top: 1rem;
+    left: 66rem;
+}
+.imgcontainer.pipe{
+    width: 12rem;
+    height: 6rem;
+    top: 31rem;
+    left: 31rem;
+}
+.imgcontainer.plate{
+    width: 4rem;
+    height: 4rem;
+    top: 21rem;
+    left: 47rem;
+}
+
+.imgcontainer.powder_puff{
+    width: 2.8rem;
+    height: 2.8rem;
+    top: 37.2rem;
+    left: 11.5rem;
+}
+
+.imgcontainer.quarter{
+    width: 3rem;
+    height: 3rem;
+    top: 12rem;
+    left: 37rem;
+}
+
+.imgcontainer.radio{
+    width: 9.5rem;
+    height: 6.5rem;
+    
+    left: 75.5rem;
+} 
+
+.imgcontainer.radish{
+    width: 5rem;
+    height: 6.5rem;
+    left: 62rem;
+    top: 25.5rem;
+}
+
+.imgcontainer.riot_badge{
+    width: 3rem;
+    height: 3rem;
+    top: 2rem;
+    left: 17.5rem;
+    transform: rotate(-140deg);
+}
+
+
+.imgcontainer.sparrow {
+    width: 9rem;
+    height: 7rem;
+    top: 6.5rem;
+    left: 9rem;
+}
+
+.imgcontainer.spoon{
+    width: 8rem;
+    height: 1.6rem;
+    top: 18.5rem;
+    left: 53rem;
+}
+
+.imgcontainer.telephone{
+    width: 10rem;
+    height: 5rem;
+    top: 12.5rem;
+    left: 51.5rem;
+}
+.imgcontainer.tobacco{
+    top: 16rem;
+    left: 17rem;
+    width: 4rem;
+    height: 4rem;
+}
+
+.imgcontainer.turkey{
+    width: 6rem;
+    height: 8rem;
+    top: 3.5rem;
+    left: 52.5rem;
+}
+
+.imgcontainer.turpentine{
+    width: 4rem;
+    height: 10rem;
+    top: 14rem;
+    left: 10.5rem;
+}
+
+.imgcontainer.typewriter{
+    width: 5rem;
+    height: 5rem;
+    }
+
+.imgcontainer.vinyl{
+    width: 2.5rem;
+    height: 2.5rem;
+    top: 37.5rem;
+    left: 21.5rem;
+}
+
+.imgcontainer.logo{
+    width: 11rem;
+    height: 8rem;
+    top: 8.5rem;
+    left: 73rem;
+}
+
+.zoomed{
+    animation: zoom 0.5s ease-out forwards;
+    animation-composition: add;
+    transform-origin: 50% 50%;
+}
+@keyframes zoom {
+    0%{
+        transform: scale(1);
+    }
+    100%{
+        transform: scale(1.2);
+    }
+}
