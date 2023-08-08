@@ -8,8 +8,8 @@
     align-items: center;
 }
 .imgcontainer_mainTitle{
-    width: 17vw;
-    height: 11vw;
+    width: 15rem;
+    /* height: 11vw; */
     margin-top: 10vw;
 }
 .img_mainTitle{
@@ -20,7 +20,7 @@
 .credits{
     width: 15vw;
     font-size: 0.8rem;
-    margin-top: 2rem;
+    margin-top: 1.2rem;
     text-align: center;
     line-height: 140%;
 }
@@ -39,7 +39,7 @@
 }
 
 .textbox-container{
-    margin-top: 7rem;
+    margin-top: 6.5rem;
     width: 40vw;
     height: 25vw;
     text-align: center;
@@ -68,7 +68,7 @@
 .textbox.content::after{
     content: "";
     margin-left: .4rem;
-    border: 1.5px solid black;
+    border: 1px solid black;
     animation: cursor 0.9s infinite;
 }
 

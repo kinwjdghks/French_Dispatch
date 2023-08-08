@@ -3,6 +3,7 @@
     width: 95rem;
     height: 40rem;
     margin-top: 11rem;
+    /* border: 1px solid black; */
 }
 
 .imgcontainer{
@@ -33,6 +34,7 @@
     left: 54.5rem;
     width: 4.5rem;
     height: 14rem;
+    z-index: 2;
 }
 
 .imgcontainer.Fran{
@@ -47,26 +49,27 @@
     left: 47rem;
     width: 5rem;
     height: 14rem;
+    z-index: 2;
 }
 
 .imgcontainer.Marti{
-    top:0;
-    left: 87rem;
+    top:-0.5rem;
+    left: 86.5rem;
     width: 7rem;
     height: 19rem;
 }
 
 .imgcontainer.Owen{
     top: 0;
-    left: 20rem;
+    left: 20.7rem;
 
-    width: 7.8rem;
-    height: 18.4rem;
+    width: 8.2rem;
+    height: 19rem;
 }
 
 .imgcontainer.Rea{
     top: 13.2rem;
-    left: 30.5rem;
+    left: 31rem;
     width: 5rem;
     height: 17rem;
 }
@@ -93,10 +96,10 @@
 
 .imgcontainer.Timo{
     transform: rotate(170deg);
-    top: 22rem;
+    top: 21rem;
     left: 23.5rem;
-    width: 6rem;
-    height: 18rem;
+    width: 6.5rem;
+    height: 19rem;
 }
 
 .imgcontainer.barricade{
@@ -131,7 +134,7 @@
     left: 62.5rem;
 }
 .imgcontainer.cigarette{
-    left: 62rem;
+    left: 60rem;
     top: 4rem;
     width: 1.3rem;
     height: 7.4rem;
@@ -143,16 +146,16 @@
     width: 8rem;
 }
 .imgcontainer.dollar{
-    width: 9.5rem;
-    height: 4rem;
-    top: 21rem;
-    left: 52.5rem;
+    width: 9.2rem;
+    height: 3.9rem;
+    top: 20.6rem;
+    left: 54rem;
 }
 .imgcontainer.espresso {
     width: 9rem;
-    height: 5.5rem;
-    top: 5.5rem;
-    left: 30rem;
+    height: 5.6rem;
+    top: 6rem;
+    left: 30.5rem;
 }
 .imgcontainer.fedora{
     width: 8rem;
@@ -163,7 +166,7 @@
 .imgcontainer.fork{
     width: 12rem;
     height: 1.5rem;
-    left: 52rem;
+    left: 50rem;
 } 
 
 .imgcontainer.fried_egg{
@@ -181,43 +184,44 @@
 }
 
 .imgcontainer.lazy_susan{
-    width: 8rem;
-    height: 5rem;
-    top: 0.5rem;
-    left: 8rem;
+    width: 8.6rem;
+    height: 5.3rem;
+    top: 1.3rem;
+    left: 7rem;
 }
 .imgcontainer.lightbulb{
     width: 5rem;
     height: 9rem;
-    top: 21rem;
+    top: 20.3rem;
     left: 38.5rem;
 }
 
 .imgcontainer.lighter{
     width: 4rem;
     height: 4.5rem;
-    left: 29.5rem;
+    left: 31rem;
 }
 
 .imgcontainer.mask{
-    width: 7rem;
-    height: 7rem;
-    top: 33rem;
+    width: 7.8rem;
+    height: 7.8rem;
+    top: 32rem;
     left: 5rem;
 }
 .imgcontainer.paintbrush{
     width: 1rem;
     height: 15.5rem;
     top:24.5rem;
-    left: 3rem;
-    transform: rotate(20deg);
+    left: 3.5rem;
+    transform: rotate(28deg);
 
 }
 .imgcontainer.painting_knife{
-    width: 8rem;
-    height: 3.5rem;
-    top: 1rem;
-    left: 66rem;
+    width: 9.5rem;
+    height: 4.3rem;
+    top: 0.5rem;
+    left: 63rem;
+    transform: rotate(-10deg);
 }
 .imgcontainer.pipe{
     width: 12rem;
@@ -233,24 +237,24 @@
 }
 
 .imgcontainer.powder_puff{
-    width: 2.8rem;
-    height: 2.8rem;
-    top: 37.2rem;
-    left: 11.5rem;
+    width: 3rem;
+    height: 3rem;
+    top: 37rem;
+    left: 12.6rem;
 }
 
 .imgcontainer.quarter{
-    width: 3rem;
-    height: 3rem;
-    top: 13.5rem;
+    width: 3.5rem;
+    height: 3.5rem;
+    top: 12.5rem;
     left: 37.5rem;
 }
 
 .imgcontainer.radio{
-    width: 9.5rem;
-    height: 6.5rem;
+    width: 10rem;
+    height: 6.8rem;
     
-    left: 75.5rem;
+    left: 74rem;
 } 
 
 .imgcontainer.radish{
@@ -261,8 +265,8 @@
 }
 
 .imgcontainer.riot_badge{
-    width: 3rem;
-    height: 3rem;
+    width: 3.5rem;
+    height: 3.5rem;
     top: 2rem;
     left: 17.5rem;
     transform: rotate(-140deg);
@@ -273,41 +277,46 @@
     width: 9rem;
     height: 7rem;
     top: 6.5rem;
-    left: 9rem;
+    left: 10rem;
 }
 
 .imgcontainer.spoon{
-    width: 8rem;
+    width: 6.5rem;
+    height: 1.2rem;
+    top: 14.5rem;
+    left: 59.8rem;
+    transform: rotate(290deg);
+    /* width: 8.1rem;
     height: 1.6rem;
-    top: 18.5rem;
-    left: 53rem;
+    top: 17rem;
+    left: 59.2rem; */
 }
 
 .imgcontainer.telephone{
     width: 10rem;
-    height: 5rem;
-    top: 12.5rem;
-    left: 51.5rem;
+    height: 5.2rem;
+    top: 13.3rem;
+    left: 50rem;
 }
 .imgcontainer.tobacco{
-    top: 16rem;
+    top: 15rem;
     left: 17rem;
-    width: 4rem;
-    height: 4rem;
+    width: 5rem;
+    height: 5rem;
 }
 
 .imgcontainer.turkey{
     width: 6rem;
     height: 8rem;
     top: 3.5rem;
-    left: 52.5rem;
+    left: 51.5rem;
 }
 
 .imgcontainer.turpentine{
     width: 4rem;
     height: 10rem;
     top: 14rem;
-    left: 10.5rem;
+    left: 11rem;
 }
 
 .imgcontainer.typewriter{

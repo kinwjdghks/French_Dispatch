@@ -31,6 +31,7 @@ import mask from "../Images/objects/mask.png";
 import paintbrush from "../Images/objects/paintbrush.png";
 import painting_knife from "../Images/objects/painting_knife.png";
 import pipe from "../Images/objects/pipe.png";
+import powder_puff from "../Images/objects/powder_puff.png";
 import plate from "../Images/objects/plate.png";
 import quarter from "../Images/objects/quarter.png";
 import radio from "../Images/objects/radio.png";
@@ -75,13 +76,14 @@ const Objects = ({onHover}) => {
     {name: "포크", subname:"멋진 포크",content:"외국인도 쓸 수 있어요.",img:fork,id:"fork"},
     {name: "계란 프라이", subname:"담백함",content:"익히지 마세요. 코냑과 함께 드세요.",img:fried_egg,id:"fried_egg"},
     {name: "잉크병", subname:"커피보다 진한 액체",content:"잉크병은 엎어져도 펜촉은 마르지 않습니다.",img:inkwell,id:"inkwell"},
-    {name: "레이지 수잔", subname:"‘서빙 테이블’의 별칭",content:"레이지 수잔에 올라간 품목들: \n머그컵 1개, 커피 포트 2개, 접시, 샤또 쇼스탈 화이트 와인 한 병, 빈 와인잔, 식전주 2잔(베르무트와 아페롤), 코냑 20ml(달걀 노른자와 타바스코 소스와 굴 포함), 아포가토, 콜라 1병과 잔, 골리스테스 담배와 성냥 한 갑 씩, 발포성 알약이 들어있는 물 1잔.",img:lazy_susan,id:"lazy_susan"},
+    {name: "레이지 수잔", subname:"‘서빙 테이블’의 별칭",content:"레이지 수잔에 올라간 품목들: \n머그컵 1개, 커피 포트 2개, 접시, 샤또 쇼스탈 화이트 와인 한 병, 빈 와인잔, \n식전주 2잔(베르무트와 아페롤), 코냑 20ml(달걀 노른자와 타바스코 소스와 굴 포함), 아포가토, \n콜라 1병과 잔, 골리스테스 담배와 성냥 한 갑 씩, 발포성 알약이 들어있는 물 1잔.",img:lazy_susan,id:"lazy_susan"},
     {name: "전구", subname:"어떤 상징",content:"전구가 나가고 곧이어 밝은 빛이 꺼졌습니다.\n혜성 만큼은 아니어도 전구 만큼은 밝던 빛이요.",img:lightbulb,id:"lightbulb"},
     {name: "라이터", subname:"지포 라이터",content:"그냥 멋있잖아요. 소리도 좋고.",img:lighter,id:"lighter"},
     {name: "방독면", subname:"답답함",content:"방독면은 공기의 소중함을 알게 해줍니다.",img:mask,id:"mask"},
     {name: "유화 붓", subname:"모세의 붓",content:"감옥에도 예술은 있었습니다. 사랑도요.",img:paintbrush,id:"paintbrush"},
     {name: "페인팅 나이프", subname:"모세의 화구",content:"칼 중에 가장 예술적인 칼입니다.",img:painting_knife,id:"painting_knife"},
     {name: "파이프", subname:"파이프 아님",content:"이건 파이프가 아닙니다. 파이프의 이미지라고요.",img:pipe,id:"pipe"},
+    {name: "파우더 퍼프", subname:"줄리엣의 화장품",content:"크레멘츠 씨에 따르면 파우더 퍼프는 주체성을 빼앗아가는 화장품입니다.",img:powder_puff, id:"powder_puff"},
     {name: "접시", subname:"외국인의 친구",content:"어디에 가도 당신을 위한 접시는 준비되어 있죠. 당신이 외국인이더라도.",img:plate,id:"plate"},
     {name: "동전", subname:"통신 도구",content:"때로는 동전 하나가 영리한 아이의 목숨을 살릴 수도 있습니다.",img:quarter,id:"quarter"},
     {name: "라디오", subname:"오래된 최신 기술",content:"앙뉘의 모든 사람이 라디오로 제피렐리의 연설을 들었습니다.\n그 다음에 일어난 일도요.",img:radio,id:"radio"},
