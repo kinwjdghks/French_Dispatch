@@ -19,7 +19,6 @@
 }
 .credits{
     width: 15vw;
-    height: 3vw;
     font-size: 0.8rem;
     margin-top: 2rem;
     text-align: center;
@@ -40,44 +39,63 @@
 }
 
 .textbox-container{
-    margin-top: 5rem;
+    margin-top: 7rem;
     width: 40vw;
     height: 25vw;
     text-align: center;
 }
 .textbox.name{
-    font-size: 3.5rem;
+    font-size: 3rem;
     width: inherit;
-    height: 3vw;
     font-weight: 700;
 }
 .textbox.job{
-    font-size: 2rem;
+    font-size: 1.5rem;
     width: inherit;
-    height: 2vw;
-    font-weight: 500;
+    font-weight: 700;
+    margin-top: 0.3rem;
 }
 .textbox.content{
-    margin-top: .5rem;
-    font-size: 2rem;
+    margin-top: 2rem;
+    font-size: 1.5rem;
     width: inherit;
     height: 15vw;
     z-index: 1;
+    white-space: pre-wrap;
+    line-height: 2.4rem;
 }
+
 .textbox.content::after{
     content: "";
     margin-left: .4rem;
     border: 1.5px solid black;
-    opacity: 0;
-    animation: cursor .9s infinite 3s steps(2);
-    z-index: 2;
+    animation: cursor 0.9s infinite;
+}
+
+.hovered{
+    animation: appear 0.4s linear;
 }
 
 @keyframes cursor {
-0%{
-    opacity: 1;
-}
-100%{
+0%,
+49.99%{
     opacity: 0;
 }
-  }
+50%,
+100%{
+    opacity: 1;
+}
+
+}
+
+@keyframes appear {
+    0%{
+        opacity: 0;
+        margin-top:8px;
+    }
+    100%{
+        opacity: 1;
+        margin-top:0px;
+
+    }
+}

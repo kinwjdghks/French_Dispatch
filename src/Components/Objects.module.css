@@ -2,7 +2,7 @@
     position: relative;
     width: 95rem;
     height: 40rem;
-    margin-top: 3rem;
+    margin-top: 11rem;
 }
 
 .imgcontainer{
@@ -158,7 +158,7 @@
     width: 8rem;
     height: 4.5rem;
     top: 35.5rem;
-    left: 39rem;
+    left: 38rem;
 }
 .imgcontainer.fork{
     width: 12rem;
@@ -242,8 +242,8 @@
 .imgcontainer.quarter{
     width: 3rem;
     height: 3rem;
-    top: 12rem;
-    left: 37rem;
+    top: 13.5rem;
+    left: 37.5rem;
 }
 
 .imgcontainer.radio{
