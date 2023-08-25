@@ -1,7 +1,7 @@
 
 .mainpage{
     width: 100vw;
-    height: 134vw;
+    height: 95vw;
     background-color:#94E8EB;
     display: flex;
     flex-direction: column;
@@ -9,7 +9,6 @@
 }
 .imgcontainer_mainTitle{
     width: 15rem;
-    /* height: 11vw; */
     margin-top: 10vw;
 }
 .img_mainTitle{
@@ -39,9 +38,9 @@
 }
 
 .textbox-container{
-    margin-top: 6.5rem;
+    margin-top: 2rem;
     width: 40vw;
-    height: 25vw;
+    height: 15vw;
     text-align: center;
 }
 .textbox.name{
@@ -59,7 +58,7 @@
     margin-top: 2rem;
     font-size: 1.5rem;
     width: inherit;
-    height: 15vw;
+    height: 5vw;
     z-index: 1;
     white-space: pre-wrap;
     line-height: 2.4rem;
